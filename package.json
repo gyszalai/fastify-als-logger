@@ -1,0 +1,25 @@
+{
+  "name": "fastify-als-logger",
+  "version": "1.0.0",
+  "description": "A small fastify plugin that stores the fastify request logger in the async context with async-local-storage",
+  "main": "lib/index.ts",
+  "scripts": {
+    "start": "",
+    "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Szalai Gyula <gyszalai@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async-local-storage": "^1.2.0",
+    "fastify": "^1.3.0",
+    "fastify-plugin": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "~8.10.9",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.0",
+    "typescript": "^2.8.3"
+  }
+}
